@@ -55,6 +55,7 @@ header {
     font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 0px;
+    color: #1f8505;
   }
   
   .text-content p {
@@ -62,15 +63,61 @@ header {
     margin-top: 10px;
   }
 
-button {
+  .text {
+    color: #ffffff;
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.buttonstyle {
     border-radius: 10px;
     border-style: none;
     background-color: #1f8505;
     margin-top: 10px;
     width: 200px;
     height: 60px;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.buttonstyle:hover {
+  background-color: #d1d1d1b9;
 }
 
 button h3 {
     color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1f8505;
+  padding: 10px 40px 10px 40px;
+  gap: 40px;
+  border-radius: 10px;
+}
+
+li {
+  /* margin-left: 20px; */
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none ;
+  font-size: medium;
+}
+
+a:hover {
+  color: #d1d1d1b9;
+}
+
+ul li a{
+  font-size: medium;
 }
